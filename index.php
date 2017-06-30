@@ -176,20 +176,20 @@
 			<ul class="productBox">
 			
 			<?php  
-				$dir = $_SERVER['DOCUMENT_ROOT']."../gallery/gallery-images";  
+				$dir = "gallery/gallery-images";  
 				chdir ($dir);  
 				$images = glob("*.{gif,png,jpg}", GLOB_BRACE);  
 				
 				$arrlength=count($images);
 				for($x=0;$x<$arrlength;$x++) {
 					echo ('<img src="');
-					echo ("../gallery/gallery-images/$images[$x]");
+					echo ("gallery/gallery-images/$images[$x]");
 				  	echo ('" />');
 					echo ('<br><br><br>');
 				}
 			?> 
 			
-						
+			 		
 									
 			<!--
 				<img src="<?php /*echo ("../gallery/gallery-images/$file"); */?>" />
