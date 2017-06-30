@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<note>
+	<to>George</to>
+	<from>John</from>
+	<heading>Reminder</heading>
+	<body>Don't forget the meeting!</body>
+	
+	<str>云富豪雷群财务机器人</str>
+	<ren>林先生</ren>
+	<tel>0591-85217578</tel>
+	<qq>1553922545</qq>
+	<phone>15259176565</phone>
+	<email>mail@yfhcw.net</email>
+	<addr>福建省福清市音西街道福点工作室</addr>
+	
+</note>
