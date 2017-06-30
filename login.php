@@ -19,6 +19,23 @@ if(isset($_COOKIE["isview"]) and $_COOKIE["isview"] == $password){
 } 
  
 if($isview){ ?> 
+
+
+<script type="text/javascript">  
+function show_confirm()  
+{  
+	var r=confirm("Press a button!");  
+	if (r==true)  
+	{  
+		//window.location.href='./gallery/index.php';  
+	}  
+	else  
+	{  
+		alert("You pressed Cancel!");  
+	}  
+}  
+</script>  
+
  
 <h3>网站管理<h3>
 <ul>
@@ -36,7 +53,7 @@ if($isview){ ?>
 
 <a name="browse"><br><pre>
 1. 打开产品图库
-	点击链接<a href="/gallery/index.php">/gallery/index.php<a>查看产品图库。
+	点击链接<a href="#">/gallery/index.php<a>查看产品图库。
 	
 	
 	
@@ -45,7 +62,8 @@ if($isview){ ?>
 </pre>
 <a name="clear"><br><pre>
 2. 清空图库内容
-	点击链接<a href="/gallery/cleardir.php">/gallery/cleardir.php<a>清空图库内容图片。 
+	点击链接<a onClick="confirm()" href="#">/gallery/cleardir.php<a>清空图库内容图片。
+	
 
 	
 	
@@ -54,7 +72,7 @@ if($isview){ ?>
 </pre>
 <a name="addimg"><br><pre>
 3. 添加产品图片
-	点击链接<a href="/gallery/index.php">/gallery/index.php<a>查看产品图库，滚动到下方拖动要添加的图片到方框内。
+	点击链接<a href="./gallery/index.php">/gallery/index.php<a>查看产品图库，滚动到下方拖动要添加的图片到方框内。
 	
 	
 	
@@ -63,7 +81,7 @@ if($isview){ ?>
 </pre>
 <a name="review"><br><pre>
 4. 查看效果
-	点击首页链接<a href="http://yfhcw.net/home">http://yfhcw.net<a>查看效果。
+	点击首页链接<a href="http://yfhcw.net/home/index.php">http://yfhcw.net<a>查看效果。
 	
 	
 	
