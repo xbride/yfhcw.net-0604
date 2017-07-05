@@ -1,5 +1,8 @@
 ﻿<!DOCTYPE html>
 <!-- saved from url=(0036)http://www.qiye.net/company393766638 -->
+
+<script type="text/javascript" src="images/today.php?"></script>
+
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
