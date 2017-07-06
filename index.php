@@ -78,6 +78,12 @@
 <?php
 	include "PluginManager.php";
 	//$pluginManager->trigger('demo','');
+	
+	//put it here
+	$ip = $pluginManager->trigger('ip', $ip);
+	$pluginManager->trigger('log', $ip);
+	$pluginManager->trigger('today', $ip);
+								
 ?>
 
 </head>
@@ -235,7 +241,9 @@
 						<li class="clearfix">
 							<div class="fl tipbox">
 								<span class="tip">您的姓名：</span>
-								<input class="name" type="text" value="<?php  $pluginManager->trigger('ip',''); ?>">
+								<input class="name" type="text" value="<?php  echo $pluginManager->trigger('ip',''); ?>">
+								
+								
 							</div>
 							<div class="fl tipbox phonetip">
 								<span class="tip">联系电话：</span>
@@ -324,6 +332,8 @@ var _hmt = _hmt || [];
     </div>
   </div>
 </div>
+
+
 
 </body></html>
 
