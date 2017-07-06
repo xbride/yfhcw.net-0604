@@ -75,6 +75,11 @@
 <script src="js/jquery.js"></script>
 <script src="js/kefu.js"></script>
 
+<?php
+	include "PluginManager.php";
+	//$pluginManager->trigger('demo','');
+?>
+
 </head>
 <body>
 <!--头部导航topnav-->
@@ -230,7 +235,7 @@
 						<li class="clearfix">
 							<div class="fl tipbox">
 								<span class="tip">您的姓名：</span>
-								<input class="name" type="text">
+								<input class="name" type="text" value="<?php  $pluginManager->trigger('ip',''); ?>">
 							</div>
 							<div class="fl tipbox phonetip">
 								<span class="tip">联系电话：</span>
