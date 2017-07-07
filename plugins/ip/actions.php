@@ -1,4 +1,4 @@
-<?php
+<?php date_default_timezone_set('PRC');
 /**
  * 这是一个Hello World简单插件的实现
  *
