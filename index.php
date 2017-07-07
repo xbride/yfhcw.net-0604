@@ -259,7 +259,7 @@
 							<textarea class="longinput" type="text"></textarea>
 						</li>
 						<li>
-						<!--	<button class="btnsend">发送</button>-->
+							<button class="btnsend" onClick="alert('感谢您的留言！');location.reload();">发送</button>
 						</li>
 					</ul>
 				</div>
